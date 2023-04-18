@@ -93,13 +93,13 @@
         <div class="operation-request">
             <h1>Request portal</h1>
             <span class="explore">Explore service requsts from brands. Respond to requests that are right for you</span>
-            <div class="filters">
+            <main id="filter">
                <a href="./service.html">
-                <select name="select" id="select">
+                <select name="select" ">
                     <option value="Categories">Categories</option>
                 </select>
                </a>
-                <select name="select" id="select">
+                <select name="select"">
                     <option value="Budget">Budget</option>
                 </select>
                 <select name="select">
@@ -126,7 +126,7 @@
                    </a>
                    <span class="span">Responses only</span>
                 </label>
-            </div>
+            </main>
 
             <div class="carousel">
                 <div class="link links">
@@ -1266,6 +1266,43 @@
         </div>
     </footer>
 
+    <style>
+        .filt {
+            position: fixed;
+            top: 60px;
+        width: 1390px;
+        background-color: yellow;
+        height: 50px;
+        z-index: 999;
+        margin-right: 100px;
+        }
+        
+        @keyframes slideUp {
+          0% {
+            opacity: 0;
+            transform: translateY(70%);
+          } 
+          100% {
+            opacity: 1;
+            transform: translateY(0%);
+          }
+        }
+        
+   
+        </style>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          if (document.documentElement.scrollTop > 60) {
+            document.getElementById("filter").className = "filt";
+          }
+          else {
+            document.getElementById("filter").className = "none";
+          }
+        }
+        </script>
 
 
     <div class="screen">

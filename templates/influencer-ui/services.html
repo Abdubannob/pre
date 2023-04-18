@@ -95,7 +95,7 @@
         <div class="operation-request">
             <h1>Services</h1>
             
-            <div class="filters">
+            <main id="filter">
 
                 <a class="youtube-icon" href="./service.html">
                     <div class="selects">
@@ -106,7 +106,7 @@
                     </div>
                 </a>
 
-                <select name="select" id="select">
+                <select name="select">
                     <option value="Status">Status</option>
                 </select>
                 <select name="select">
@@ -143,7 +143,7 @@
                         <option value="Bestsellers">Bestsellers</option>
                     </select>
                 </div>                
-            </div>
+            </main>
 
             <div class="carousel">
                 <!-- <div class="link">
@@ -885,6 +885,46 @@
         </div>
     </footer>
 
+    <style>
+        .filt {
+            position: fixed;
+            top: 60px;
+        width: 1390px;
+        background-color: yellow;
+        height: 50px;
+        z-index: 999;
+        margin-right: 100px;
+        }
+        
+        #select{
+            border: none;
+        }
+        @keyframes slideUp {
+          0% {
+            opacity: 0;
+            transform: translateY(70%);
+          } 
+          100% {
+            opacity: 1;
+            transform: translateY(0%);
+          }
+        }
+        
+   
+        </style>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          if (document.documentElement.scrollTop > 60) {
+            document.getElementById("filter").className = "filt";
+          }
+          else {
+            document.getElementById("filter").className = "none";
+          }
+        }
+        </script>
 
     
     <div class="screen">

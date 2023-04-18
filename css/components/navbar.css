@@ -51,20 +51,6 @@
 
 
 
-.navigation .brand-bars {
-    width: 101px;
-    height: 124px;
-    padding: 62px 0px;
-    gap: 4px;
-    isolation: isolate;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #6A9586;
-    color: #f9f9ff;
-    position: relative;
-}
-
 .navigation .menu-cont {
     width: 101px;
     height: 100%;
@@ -144,12 +130,6 @@
     border-top-right-radius: 10px;
 }
 
-.navigation .brand-bar{
-    background: #6A9586;
-    color: #f9f9ff;
-    position: relative;
-}
-
 
 
 .navigations{
@@ -164,23 +144,11 @@
     width: 101px;
     left: 0;
     top: 60px;
-   z-index: 0;
+   /* z-index: 0; */
     /* bottom: 114px; */
 }
 
-.navigations .brand-bar{
-    width: 101px;
-    height: 84px;
-    padding: 0px 0px;
-    gap: 4px;
-    isolation: isolate;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #6A9586;
-    color: #f9f9ff;
-    position: relative;
-}
+
 
 .navigations .menu-bar {
     width: 101px;
@@ -236,4 +204,5 @@ height: 220px;
 background: #707FDA;
 border-bottom-right-radius: 10px;
 }
+
 

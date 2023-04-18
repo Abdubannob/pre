@@ -25,6 +25,7 @@
     height: 100%;
     /* margin-top: 100px; */
     position: relative;
+    overflow: visible;
 }
 
 
@@ -40,38 +41,36 @@
     font-size: 36px;
 }
 
-.operation-request .filters {
+.operation-request #filter {
     width: 100%;
     height: 60px;
     display: flex;
     gap: 10px;
     align-items: center;
     /* margin-top: 20px; */
-    position: sticky;
-    top: 60px;
+  
     background-color: #F5F5F5;
-    z-index: 999;
+    /* z-index: 999; */
     /* position: relative; */
 
 }
 
-.operation-request .filters select {
+.operation-request #filter select {
     font-size: 14px;
     font-weight: 500;
     padding: 5px 5px;
-    border: 1px solid #EDEDF7;
+    border: 1px solid #99A29C;
     border-radius: 6px;
     outline: none;
     background-color: transparent;
-    position: sticky;
-    top: 60px;
+  
 }
 
 .web img {
     padding-bottom: 1px;
 }
 
-.operation-request .filters .web {
+.operation-request #filter .web {
     font-size: 14px;
     font-weight: 500;
     padding: 5px 10px;

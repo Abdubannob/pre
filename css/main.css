@@ -14,3 +14,6 @@
 @import "./components/aside.css";
 @import "./components/youtube.css";
 @import "./components/submission.css";
+@import "./components/brand/brand.css"; 
+@import "./components/brand/brand-navbar.css";
+@import "./components/brand/brand-request.css"

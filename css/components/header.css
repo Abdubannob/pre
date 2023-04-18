@@ -97,8 +97,10 @@
     max-width: 1440px;
     padding-left: 0;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
+
+
 /* 
 .heading{
     position: fixed;

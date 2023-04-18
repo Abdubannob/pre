@@ -35,11 +35,13 @@ if(order2.checked){
 
 
 
-
-
-    $(window).scroll(function(){
-    //   var margin = $('.operation-request ').height() - $('.blue').height();
-      if($(this).scrollTop()>=100){
-        $(".sticky").css("background", "red")
-      } 
-    });
+window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          if (document.documentElement.scrollTop > 60) {
+            document.getElementById("filter").className = "filt";
+          }
+          else {
+            document.getElementById("filter").className = "none";
+          }
+        }

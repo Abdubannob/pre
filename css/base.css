@@ -31,3 +31,11 @@ body{
     --extra-five: #6A9586;
 }
 
+.filt {
+    position: fixed;
+    top: 60px;
+width: 1290px;
+background-color: yellow;
+height: 50px;
+z-index: 99;
+}

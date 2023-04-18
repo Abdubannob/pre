@@ -5,6 +5,7 @@ footer {
     z-index: 999;
     position: static;
     bottom: 0;
+    overflow: hidden;
 }
 
 
@@ -69,6 +70,7 @@ footer {
     background-color: #3F414E;
     padding-right: 10px;
     z-index: 999;
+    overflow: hidden;
 }
 
 .footer .top-footer {

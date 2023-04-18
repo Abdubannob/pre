@@ -4,10 +4,10 @@
     width: 1239px;
     height: 1515px;
     background-color: #fff;
-    margin: 100px 0 92px 151px;
+   margin: 100px 0 92px 150px;
     padding: 30px;
-    border-radius: 12px;
 }
+
 
 .details {
     display: flex;
@@ -121,7 +121,7 @@
 }
 
 .main-img img {
-    width: 100%;
+    width: 728px;
     height: 100%;
 }
 
